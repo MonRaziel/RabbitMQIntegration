@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6E66E8E2-0ABE-4817-BEB1-525CE675B05D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Bus", "Infrastructure.Bus", "{4CB704A7-B513-41ED-8C11-B4D3797F3F3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.IoC", "Infrastructure.IoC", "{964C005F-8076-4B8F-B761-B86446081FB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{76BD0B4C-1ED6-47F6-9E39-546CED55E71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitIntegration.Domain.Core", "RabbitIntegration.Domain.Core\RabbitIntegration.Domain.Core.csproj", "{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitIntegration.Infrastructure.Bus", "RabbitIntegration.Infrastructure.Bus\RabbitIntegration.Infrastructure.Bus.csproj", "{DC228FAA-235D-4DB0-9FF6-1A873E2BE443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC228FAA-235D-4DB0-9FF6-1A873E2BE443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC228FAA-235D-4DB0-9FF6-1A873E2BE443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC228FAA-235D-4DB0-9FF6-1A873E2BE443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC228FAA-235D-4DB0-9FF6-1A873E2BE443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A479B9DB-903B-4AA5-BD11-CD0CD856BC9D} = {6E66E8E2-0ABE-4817-BEB1-525CE675B05D}
+		{DC228FAA-235D-4DB0-9FF6-1A873E2BE443} = {4CB704A7-B513-41ED-8C11-B4D3797F3F3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7773E928-CAF8-4695-8760-39B965591739}
+	EndGlobalSection
+EndGlobal
