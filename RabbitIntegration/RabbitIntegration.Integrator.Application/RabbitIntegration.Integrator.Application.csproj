@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitIntegration.Domain.Core\RabbitIntegration.Domain.Core.csproj" />
+    <ProjectReference Include="..\RabbitIntegration.Integrator.Domain\RabbitIntegration.Integrator.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
