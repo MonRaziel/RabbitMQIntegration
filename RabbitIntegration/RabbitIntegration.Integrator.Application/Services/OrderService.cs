@@ -32,6 +32,13 @@ namespace RabbitIntegration.Integrator.Application.Services
             );
 
             _bus.SendCommand(enterOrderCommand);
+
+            //If you need to validate if all went well.
+            //Task<bool> taskResult  = (Task<bool>)_bus.SendCommand(enterOrderCommand);
+
+            //_trakingRepository
+            //You can also track your request in DB using the traking repository
+
             return order;
         }
     }

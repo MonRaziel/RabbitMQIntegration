@@ -8,6 +8,8 @@ using RabbitIntegration.Integrator.Data.Context;
 using RabbitIntegration.Integrator.Data.Repository;
 using RabbitIntegration.Integrator.Domain.CommandHandlers;
 using RabbitIntegration.Integrator.Domain.Commands;
+using RabbitIntegration.Integrator.Domain.EventHandlers;
+using RabbitIntegration.Integrator.Domain.Events;
 using RabbitIntegration.Integrator.Domain.Interfaces;
 
 namespace RabbitIntegration.Infrastructure.IoC
@@ -24,10 +26,10 @@ namespace RabbitIntegration.Infrastructure.IoC
             });
 
             //Subscriptions
-            //services.AddTransient<TransferEventHandler>();
+            services.AddTransient<EnterOrderEventHandler>();
 
             //Domain Events
-            //services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();
+            services.AddTransient<IEventHandler<EnterOrderEvent>, EnterOrderEventHandler>();
 
             //Domain Banking Commands
             services.AddTransient<IRequestHandler<EnterOrderCommand, bool>, EnterOrderCommandHandler>();

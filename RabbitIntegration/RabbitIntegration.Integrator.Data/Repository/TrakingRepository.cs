@@ -19,6 +19,7 @@ namespace RabbitIntegration.Integrator.Data.Repository
         public void TrakingOrders(OrderTraking orderTraking)
         {
             _ctx.OrdersTraking.Add(orderTraking);
+            _ctx.SaveChanges();
         }
     }
 }

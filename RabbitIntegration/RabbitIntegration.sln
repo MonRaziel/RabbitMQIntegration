@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitIntegration.Integrato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitIntegration.Integrator.Domain", "RabbitIntegration.Integrator.Domain\RabbitIntegration.Integrator.Domain.csproj", "{41E77066-17EB-40F8-990A-5FEF82A2E437}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0939F810-127E-4D0B-8CB6-1E21EECBCFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitIntegration.Transfer.Api", "RabbitIntegration.Transfer.Api\RabbitIntegration.Transfer.Api.csproj", "{5B7B720F-AAAE-4A40-98B7-2E893324225F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +75,10 @@ Global
 		{41E77066-17EB-40F8-990A-5FEF82A2E437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E77066-17EB-40F8-990A-5FEF82A2E437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E77066-17EB-40F8-990A-5FEF82A2E437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7B720F-AAAE-4A40-98B7-2E893324225F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7B720F-AAAE-4A40-98B7-2E893324225F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7B720F-AAAE-4A40-98B7-2E893324225F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7B720F-AAAE-4A40-98B7-2E893324225F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +97,8 @@ Global
 		{2C32A6A1-A6FE-46A2-B24B-283A53124654} = {FF2C9CF4-1E06-4332-AFB9-073741B26F93}
 		{118B6ED6-0C20-4F27-ACF8-ED8AB627CFC1} = {0C65818A-C884-4EC4-AFB0-DCBEDEC933F8}
 		{41E77066-17EB-40F8-990A-5FEF82A2E437} = {854DE077-011D-4D22-9C7D-6D489FE3FA21}
+		{0939F810-127E-4D0B-8CB6-1E21EECBCFAB} = {0F55987C-6674-4276-B336-8A3B5D393077}
+		{5B7B720F-AAAE-4A40-98B7-2E893324225F} = {0939F810-127E-4D0B-8CB6-1E21EECBCFAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7773E928-CAF8-4695-8760-39B965591739}
